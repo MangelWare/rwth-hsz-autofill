@@ -1,0 +1,35 @@
+const hszData = {
+  inputs: {
+    'vorname': "Max",
+    'name': "Mustermann",
+    'strasse': "Teststr. 1",
+    "ort": "12345 Teststadt",
+    "matnr": "124356",
+    "email": "max.mustermann@rwth-aachen.de",
+    "telefon": "+491234567890",
+    "iban": "DE00000000000000000000"
+    },
+  
+  // Values for sex:
+  // W: weiblich
+  // M: männlich
+  // D: divers
+  // X: keine Angabe
+  sex: 'X',
+  
+  // Values for statusorig:
+  // S-RWTH: StudentIn der RWTH
+  // S-FH: StudentIn der FH
+  // S-NRW: StudentIn in NRW
+  // S-aH: StudentIn einer anderen Hochschule
+  // Azubi: Azubi RWTH/UKA
+  // Schüler: Schüler
+  // B-RWTH: Beschäftigte/r der RWTH
+  // B-FH: Beschäftigte/r der FH
+  // B-KLIN: Beschäftigte/r Klinikum
+  // Alumni: RWTH-Alumni
+  // Extern: Externe/r
+  //
+  // WARNING: Values other than S-* require different fields
+  statusorig: 'S-RWTH'
+};

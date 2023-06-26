@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "RWTH HSZ Autofill",
+    "version": "0.0.1",
+    "icons": {},
+    "description": "Autofill for RWTH HSZ registration.",
+    "author": "Simon Mangel",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://buchung.hsz.rwth-aachen.de/cgi/anmeldung.fcgi"
+            ],
+            "js": [
+                "data.js",
+                "inject.js"
+            ]
+        }
+    ]
+}
